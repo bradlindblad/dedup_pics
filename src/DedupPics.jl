@@ -23,7 +23,7 @@ end
 
 function delete_duplicates(dir)
 
-	files = readdir(dir, join = true)
+	files = readdir(dir)
 
 	for i in files
 		case = is_dupl(i)
